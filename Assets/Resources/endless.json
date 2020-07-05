@@ -1,0 +1,43 @@
+{
+	"characters": {
+	    "Сat": [10, 1],
+		"Crowd": [10, 1],
+		"Doctor": [3, 1],
+		"Doctor2": [3, 1.2],
+		"Doctor3": [3, 1.4],
+		"DoctorsRun": [3, 1.5],
+		"Dog": [10, 1.2],
+		"Hobo": [10, 1.5],
+		"HoboHard": [10, 2],
+		"Old": [10, 1],
+		"ManCough": [10, 1],
+		"RunMan": [10, 1],
+		"ManShop": [10, 1],
+		"Rescuer": [5, 1.8],
+		"Protest": [10, 1.7],
+		"Tent": [2, 2.5],
+		"DoctorsRunHard": [3, 2.3],
+		"Stolb": [10, 1.6],
+		"StolbHard": [10, 2.6],
+		"Helicopter": [10, 2.5],
+		"Reporter": [10, 2.2],
+		"ZombieBox": [10, 3],
+		"ZombieCrowdHard": [10, 3],
+		"ZombieCrowd": [10, 3],
+		"RunManHard": [10, 2.2],
+		"ZombieWoman": [10, 3],
+		"Zombie": [10, 2.6],
+		"Bat": [10, 2.4],
+		"Plague": [10, 2.4],
+		"Archer": [10, 2.6],
+		"Cowboy": [3, 2.6],
+		"OldHard": [10, 2],
+		"DogHard": [10, 1.8],
+		"ProtestHard": [10, 1.8]
+	},
+	"lut": {
+		"Mask": 10,
+		"Vaccine": 30,
+		"Empty": 1000	
+	}
+}
