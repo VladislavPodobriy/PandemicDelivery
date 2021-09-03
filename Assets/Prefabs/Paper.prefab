@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3472701847154666601}
   - component: {fileID: 436448915765775225}
-  - component: {fileID: 5098084942046259691}
   - component: {fileID: 1801853809775290522}
+  - component: {fileID: 883132745715028058}
   m_Layer: 0
   m_Name: Paper
   m_TagString: Untagged
@@ -81,19 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5098084942046259691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5900748865176707241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fc09f70cfbbad54899f08dcb161f513, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _type: 2
 --- !u!61 &1801853809775290522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -120,3 +107,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.68959683, y: 0.68959683}
   m_EdgeRadius: 0
+--- !u!114 &883132745715028058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900748865176707241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938a15704cd0aae409e47e7a343cac1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _type: 2

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8356369906884083338}
   - component: {fileID: 8356369906884083339}
   - component: {fileID: 8356369906884083336}
-  - component: {fileID: 8356369906884083332}
   - component: {fileID: 8356369906884083333}
-  - component: {fileID: 8356369906884083335}
+  - component: {fileID: 1105023961583582054}
+  - component: {fileID: -6774614524422255193}
   m_Layer: 0
   m_Name: Archer
   m_TagString: Untagged
@@ -102,20 +102,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8356369906884083332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8356369906884083337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 50
-  _heal: 1
 --- !u!61 &8356369906884083333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,7 +128,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2735634, y: 1.0507965}
   m_EdgeRadius: 0
---- !u!114 &8356369906884083335
+--- !u!114 &1105023961583582054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,7 +137,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 8356369906884083337}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936ad45f3c13d4eb1d4b11e37b81b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0.03
+  _value: 20
+  _heal: 1
+--- !u!114 &-6774614524422255193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8356369906884083337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23e8451c466fa94188908265f70fe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.05

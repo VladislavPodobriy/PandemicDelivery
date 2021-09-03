@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6534523481303217033}
-  - component: {fileID: 6534523481303217039}
   - component: {fileID: 6534523481303217038}
+  - component: {fileID: 4752778584100284890}
   m_Layer: 0
   m_Name: Doctor (2)
   m_TagString: Untagged
@@ -32,20 +32,6 @@ Transform:
   m_Father: {fileID: 6534523482296481730}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6534523481303217039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6534523481303217032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 20
-  _heal: 1
 --- !u!61 &6534523481303217038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -72,6 +58,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9258976, y: 1.0494032}
   m_EdgeRadius: 0
+--- !u!114 &4752778584100284890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534523481303217032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _value: 10
+  _heal: 1
 --- !u!1 &6534523482296481743
 GameObject:
   m_ObjectHideFlags: 0
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 6534523482296481730}
   - component: {fileID: 6534523482296481741}
   - component: {fileID: 6534523482296481740}
-  - component: {fileID: 6534523482296481731}
+  - component: {fileID: -5303259349939712300}
   m_Layer: 0
   m_Name: DoctorsRunHard
   m_TagString: Untagged
@@ -175,7 +175,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6534523482296481731
+--- !u!114 &-5303259349939712300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,10 +184,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6534523482296481743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936ad45f3c13d4eb1d4b11e37b81b1, type: 3}
+  m_Script: {fileID: 11500000, guid: f23e8451c466fa94188908265f70fe0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0.02
+  _speed: 0.05
 --- !u!1 &6534523482386070156
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,8 +197,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6534523482386070157}
-  - component: {fileID: 6534523482386070147}
   - component: {fileID: 6534523482386070146}
+  - component: {fileID: 1366160547003592454}
   m_Layer: 0
   m_Name: Doctor (1)
   m_TagString: Untagged
@@ -220,20 +220,6 @@ Transform:
   m_Father: {fileID: 6534523482296481730}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6534523482386070147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6534523482386070156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 20
-  _heal: 1
 --- !u!61 &6534523482386070146
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -260,6 +246,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0864525, y: 0.9505997}
   m_EdgeRadius: 0
+--- !u!114 &1366160547003592454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534523482386070156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _value: 10
+  _heal: 1
 --- !u!1 &6534523482904629218
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,8 +269,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6534523482904629219}
-  - component: {fileID: 6534523482904629217}
   - component: {fileID: 6534523482904629216}
+  - component: {fileID: 697061260352393706}
   m_Layer: 0
   m_Name: Patient
   m_TagString: Untagged
@@ -292,20 +292,6 @@ Transform:
   m_Father: {fileID: 6534523482296481730}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6534523482904629217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6534523482904629218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 40
-  _heal: 0
 --- !u!61 &6534523482904629216
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -332,3 +318,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2589805, y: 0.29603195}
   m_EdgeRadius: 0
+--- !u!114 &697061260352393706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534523482904629218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _value: 25
+  _heal: 0

@@ -76,7 +76,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Moves a Transform along a spline path from a start percentage to an end percentage.
+        /// Moves a Transform along a spline path from a start percentage to an _gameFinished percentage.
         /// </summary>
         public static TweenSystem.TweenBase Spline(Spline spline, Transform target, float startPercentage, float endPercentage, bool faceDirection, float duration, float delay, AnimationCurve easeCurve = null, LoopType loop = LoopType.None, Action startCallback = null, Action completeCallback = null, bool obeyTimescale = true)
         {
@@ -105,7 +105,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Sends a Rect to a callback method as it tweens from a start to an end value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
+        /// Sends a Rect to a callback method as it tweens from a start to an _gameFinished value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
         /// </summary>
         public static TweenSystem.TweenBase Value(Rect startValue, Rect endValue, Action<Rect> valueUpdatedCallback, float duration, float delay, AnimationCurve easeCurve = null, LoopType loop = LoopType.None, Action startCallback = null, Action completeCallback = null, bool obeyTimescale = true)
         {
@@ -115,7 +115,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Sends a Vector4 to a callback method as it tweens from a start to an end value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
+        /// Sends a Vector4 to a callback method as it tweens from a start to an _gameFinished value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
         /// </summary>
         public static TweenSystem.TweenBase Value(Vector4 startValue, Vector4 endValue, Action<Vector4> valueUpdatedCallback, float duration, float delay, AnimationCurve easeCurve = null, LoopType loop = LoopType.None, Action startCallback = null, Action completeCallback = null, bool obeyTimescale = true)
         {
@@ -125,7 +125,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Sends a Vector3 to a callback method as it tweens from a start to an end value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
+        /// Sends a Vector3 to a callback method as it tweens from a start to an _gameFinished value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
         /// </summary>
         public static TweenSystem.TweenBase Value(Vector3 startValue, Vector3 endValue, Action<Vector3> valueUpdatedCallback, float duration, float delay, AnimationCurve easeCurve = null, LoopType loop = LoopType.None, Action startCallback = null, Action completeCallback = null, bool obeyTimescale = true)
         {
@@ -135,7 +135,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Sends a Vector2 to a callback method as it tweens from a start to an end value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
+        /// Sends a Vector2 to a callback method as it tweens from a start to an _gameFinished value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
         /// </summary>
         public static TweenSystem.TweenBase Value(Vector2 startValue, Vector2 endValue, Action<Vector2> valueUpdatedCallback, float duration, float delay, AnimationCurve easeCurve = null, LoopType loop = LoopType.None, Action startCallback = null, Action completeCallback = null, bool obeyTimescale = true)
         {
@@ -145,7 +145,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Sends a color to a callback method as it tweens from a start to an end value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
+        /// Sends a color to a callback method as it tweens from a start to an _gameFinished value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
         /// </summary>
         public static TweenSystem.TweenBase Value(Color startValue, Color endValue, Action<Color> valueUpdatedCallback, float duration, float delay, AnimationCurve easeCurve = null, LoopType loop = LoopType.None, Action startCallback = null, Action completeCallback = null, bool obeyTimescale = true)
         {
@@ -155,7 +155,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Sends an int to a callback method as it tweens from a start to an end value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
+        /// Sends an int to a callback method as it tweens from a start to an _gameFinished value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
         /// </summary>
         public static TweenSystem.TweenBase Value(int startValue, int endValue, Action<int> valueUpdatedCallback, float duration, float delay, AnimationCurve easeCurve = null, LoopType loop = LoopType.None, Action startCallback = null, Action completeCallback = null, bool obeyTimescale = true)
         {
@@ -165,7 +165,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Sends a float to a callback method as it tweens from a start to an end value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
+        /// Sends a float to a callback method as it tweens from a start to an _gameFinished value. Note that Value tweens do not interrupt currently running Value tweens of the same type - catalog a reference by setting your tween to a Tweenbase variable so you can interrupt as needed. 
         /// </summary>
         public static TweenSystem.TweenBase Value(float startValue, float endValue, Action<float> valueUpdatedCallback, float duration, float delay, AnimationCurve easeCurve = null, LoopType loop = LoopType.None, Action startCallback = null, Action completeCallback = null, bool obeyTimescale = true)
         {
@@ -850,7 +850,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// A curve that runs slow at the end.
+        /// A curve that runs slow at the _gameFinished.
         /// </summary>
         public static AnimationCurve EaseOut
         {
@@ -862,7 +862,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// A curve that runs slow at the end but with more overall energy.
+        /// A curve that runs slow at the _gameFinished but with more overall energy.
         /// </summary>
         public static AnimationCurve EaseOutStrong
         {
@@ -874,7 +874,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// A curve that runs slow in the beginning and at the end.
+        /// A curve that runs slow in the beginning and at the _gameFinished.
         /// </summary>
         public static AnimationCurve EaseInOut
         {
@@ -886,7 +886,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// A curve that runs slow in the beginning and the end but with more overall energy.
+        /// A curve that runs slow in the beginning and the _gameFinished but with more overall energy.
         /// </summary>
         public static AnimationCurve EaseInOutStrong
         {

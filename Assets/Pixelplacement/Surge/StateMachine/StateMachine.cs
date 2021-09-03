@@ -145,7 +145,7 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Exit the current state.
+        /// ExitLevel the current state.
         /// </summary>
         public void Exit ()
         {

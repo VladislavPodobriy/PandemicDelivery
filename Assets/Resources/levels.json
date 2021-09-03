@@ -1,228 +1,833 @@
-[
-	{
-		"duration": 5,
+{
+	"endless":{
 		"startSpeed": 1,
-		"endSpeed": 1.6,
-		"characters": {
-			"Doctor": 3,
-			"Dog": 10,
-			"ManShop": 10,
-			"Crowd": 10,
-			"Old": 10,
-			"ManCough": 10
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 300,	
-		}
-	},
-	{
-		"duration": 60,
-		"startSpeed": 1.1,
-		"endSpeed": 1.7,
-		"characters":{
-			"Doctor2": 3,
-			"ManShop": 10,
-			"Crowd": 10,
-			"Hobo": 10,
-			"Cat": 10,
-			"ManCough": 10,
-			"RunMan": 10
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 300	
-		}
-	},
-	{
-		"duration": 60,
-		"startSpeed": 1.2,
-		"endSpeed": 1.8,
-		"characters":{
-			"Doctor3": 3,
-			"Old": 10,
-			"Dog": 10,
-			"Hobo": 10,
-			"Cat": 10,
-			"RunMan": 10,
-			"Rescuer": 10,
-			"Protest": 10
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 400	
-		}
-	},
-	{
-		"duration": 60,
-		"startSpeed": 1.3,
-		"endSpeed": 1.9,
-		"characters":{
-			"Doctor2": 3,
-			"DoctorsRun": 3,
-			"Stolb": 3,
-			"Dog": 10,
-			"Hobo": 10,
-			"Reporter": 10,
-			"Rescuer": 5,
-			"Protest": 10,
-			"ManCough": 10,
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 400
-		}
-	},
-	{
-		"duration": 60,
-		"startSpeed": 1.4,
-		"endSpeed": 2,
-		"characters":{
-			"Doctor3": 3,
-			"DoctorsRun": 3,
-			"Stolb": 3,
-			"Reporter": 10,
-			"Helicopter": 5,
-			"Protest": 10,
-			"ManCoughHard": 10,
-			"DogHard": 10,
-			"Zombie": 10
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 500	
-		}
-	},
-	{
-		"duration": 60,
-		"startSpeed": 1.6,
-		"endSpeed": 2.2,
-		"characters":{
-			"Tent": 3,
-			"DoctorsRunHard": 3,
-			"Reporter": 10,
-			"Helicopter": 3,
-			"ProtestHard": 10,
-			"ManCoughHard": 10,
-			"DogHard": 10,
-			"Zombie": 10,
-			"OldHard": 10
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 500	
-		}
-	},
-	{
-		"duration": 60,
-		"startSpeed": 1.8,
-		"endSpeed": 2.4,
-		"characters":{
-			"Tent": 3,
-			"StolbHard": 3,
-			"HoboHard": 10,
-			"Helicopter": 3,
-			"ProtestHard": 10,
-			"ZombieBox": 10,
-			"DogHard": 10,
-			"Zombie": 10,
-			"OldHard": 10,
-			"RunManHard": 10,
-			"ZombieCrowd": 10,
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 600
-		}
-	},
-	{
-		"duration": 60,
-		"startSpeed": 2,
-		"endSpeed": 2.6,
-		"characters":{
-			"Tent": 3,
-			"DoctorsRunHard": 3,
-			"StolbHard": 3,
-			"Helicopter": 3,
-			"ZombieBox": 10,
-			"DogHard": 10,
-			"Zombie": 10,
-			"RunManHard": 10,
-			"ZombieCrowd": 10,
-			"Cowboy": 10,
-			"Bat": 10,
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 600
-		}
-	},
-	{
-		"duration": 60,
-		"startSpeed": 2.2,
-		"endSpeed": 2.8,
-		"characters":{
-			"Tent": 3,
-			"DoctorsRunHard": 3,
-			"StolbHard": 3,
-			"Helicopter": 3,
-			"Reporter": 10,
-			"ZombieBox": 10,
-			"DogHard": 10,
-			"ZombieCrowdHard": 10,
-			"RunManHard": 10,
-			"ZombieWoman": 10,
-			"Bat": 10,
-			"Plague": 10,
-			"Archer": 10
-		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 800
-		}
-	},
-	{
-		"duration": 180,
-		"startSpeed": 2,
 		"endSpeed": 4,
-		"characters": {
-			"Tent": 3,
-			"DoctorsRunHard": 3,
-			"StolbHard": 3,
-			"Helicopter": 10,
-			"Reporter": 10,
-			"ZombieBox": 10,
-			"ZombieCrowdHard": 10,
-			"ZombieCrowd": 10,
-			"RunManHard": 10,
-			"ZombieWoman": 10,
-			"Bat": 10,
-			"Plague": 10,
-			"Archer": 10,
-			"Rescuer": 5,
-			"Cowboy": 5,
-			"OldHard": 10,
-			"Cat": 10,
-			"Dog": 10,
-			"HoboHard": 10,
-			"Crowd": 10,
-			"DogHard": 10,
-			"ProtestHard": 10,
-			"Zombie": 10
+		"duration": 500,
+		"levelObjects":[
+			{
+				"name":"Cat",
+				"chance":10,
+				"minSpeed":1
+			},
+			{
+				"name":"Crowd",
+				"chance":10,
+				"minSpeed":1
+			},
+			{
+				"name":"Doctor",
+				"chance":3,
+				"minSpeed":1
+			},
+			{
+				"name":"Doctor2",
+				"chance":3,
+				"minSpeed":1.2
+			},
+			{
+				"name":"Doctor3",
+				"chance":3,
+				"minSpeed":1.4
+			},
+			{
+				"name":"DoctorsRun",
+				"chance":3,
+				"minSpeed":1.5
+			},
+			{
+				"name":"Dog",
+				"chance":10,
+				"minSpeed":1.2
+			},
+			{
+				"name":"Hobo",
+				"chance":10,
+				"minSpeed":1.5
+			},
+			{
+				"name":"HoboHard",
+				"chance":10,
+				"minSpeed":2
+			},
+			{
+				"name":"Old",
+				"chance":10,
+				"minSpeed":1
+			},
+			{
+				"name":"ManCough",
+				"chance":10,
+				"minSpeed":1
+			},
+			{
+				"name":"RunMan",
+				"chance":10,
+				"minSpeed":1
+			},
+			{
+				"name":"ManShop",
+				"chance":10,
+				"minSpeed":1
+			},
+			{
+				"name":"Rescuer",
+				"chance":5,
+				"minSpeed":1.8
+			},
+			{
+				"name":"Protest",
+				"chance":10,
+				"minSpeed":1.7
+			},
+			{
+				"name":"Tent",
+				"chance":2,
+				"minSpeed":2.5
+			},
+			{
+				"name":"DoctorsRunHard",
+				"chance":3,
+				"minSpeed":2.3
+			},
+			{
+				"name":"Stolb",
+				"chance":10,
+				"minSpeed":1.6
+			},
+			{
+				"name":"StolbHard",
+				"chance":10,
+				"minSpeed":2.6
+			},
+			{
+				"name":"Helicopter",
+				"chance":10,
+				"minSpeed":2.5
+			},
+			{
+				"name":"Reporter",
+				"chance":10,
+				"minSpeed":2.2
+			},
+			{
+				"name":"ZombieBox",
+				"chance":10,
+				"minSpeed":3
+			},
+			{
+				"name":"ZombieCrowdHard",
+				"chance":10,
+				"minSpeed":3
+			},
+			{
+				"name":"ZombieCrowd",
+				"chance":10,
+				"minSpeed":3
+			},
+			{
+				"name":"RunManHard",
+				"chance":10,
+				"minSpeed":2.2
+			},
+			{
+				"name":"ZombieWoman",
+				"chance":10,
+				"minSpeed":3
+			},
+			{
+				"name":"Zombie",
+				"chance":10,
+				"minSpeed":2.6
+			},
+			{
+				"name":"Bat",
+				"chance":10,
+				"minSpeed":2.4
+			},
+			{
+				"name":"Plague",
+				"chance":10,
+				"minSpeed":2.4
+			},
+			{
+				"name":"Archer",
+				"chance":10,
+				"minSpeed":2.6
+			},
+			{
+				"name":"Cowboy",
+				"chance":3,
+				"minSpeed":2.6
+			},
+			{
+				"name":"OldHard",
+				"chance":10,
+				"minSpeed":2
+			},
+			{
+				"name":"DogHard",
+				"chance":10,
+				"minSpeed":1.8
+			},
+			{
+				"name":"ProtestHard",
+				"chance":10,
+				"minSpeed":1.8
+			}
+		],
+		"lutObjects":[
+			{
+				"name":"Mask",
+				"chance":10
+			},
+			{
+				"name":"Vaccine",
+				"chance":30
+			},
+			{
+				"name":"Paper",
+				"chance":50
+			},
+			{
+				"name":"Empty",
+				"chance":1000
+			}
+		]
+	},
+	"levels":[
+		{
+			"duration": 40,
+			"startSpeed":1,
+			"endSpeed":1.6,
+			"levelObjects":[
+				{
+					"name":"Doctor",
+					"chance":3
+				},
+				{
+					"name":"Dog",
+					"chance":10
+				},
+				{
+					"name":"ManShop",
+					"chance":10
+				},
+				{
+					"name":"Crowd",
+					"chance":10
+				},
+				{
+					"name":"Old",
+					"chance":10
+				},
+				{
+					"name":"ManCough",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":300
+				}
+			]
 		},
-		"lut": {
-			"Mask": 10,
-			"Vaccine": 30,
-			"Empty": 1000	
+		{
+			"duration":60,
+			"startSpeed":1.1,
+			"endSpeed":1.7,
+			"levelObjects":[
+				{
+					"name":"Doctor2",
+					"chance":3
+				},
+				{
+					"name":"ManShop",
+					"chance":10
+				},
+				{
+					"name":"Crowd",
+					"chance":10
+				},
+				{
+					"name":"Hobo",
+					"chance":10
+				},
+				{
+					"name":"Cat",
+					"chance":10
+				},
+				{
+					"name":"ManCough",
+					"chance":10
+				},
+				{
+					"name":"RunMan",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":300
+				}
+			]
+		},
+		{
+			"duration":60,
+			"startSpeed":1.2,
+			"endSpeed":1.8,
+			"levelObjects":[
+				{
+					"name":"Doctor3",
+					"chance":3
+				},
+				{
+					"name":"Old",
+					"chance":10
+				},
+				{
+					"name":"Dog",
+					"chance":10
+				},
+				{
+					"name":"Hobo",
+					"chance":10
+				},
+				{
+					"name":"Cat",
+					"chance":10
+				},
+				{
+					"name":"RunMan",
+					"chance":10
+				},
+				{
+					"name":"Rescuer",
+					"chance":10
+				},
+				{
+					"name":"Protest",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":400
+				}
+			]
+		},
+		{
+			"duration":60,
+			"startSpeed":1.3,
+			"endSpeed":1.9,
+			"levelObjects":[
+				{
+					"name":"Doctor2",
+					"chance":3
+				},
+				{
+					"name":"DoctorsRun",
+					"chance":3
+				},
+				{
+					"name":"Stolb",
+					"chance":3
+				},
+				{
+					"name":"Dog",
+					"chance":10
+				},
+				{
+					"name":"Hobo",
+					"chance":10
+				},
+				{
+					"name":"Reporter",
+					"chance":10
+				},
+				{
+					"name":"Rescuer",
+					"chance":5
+				},
+				{
+					"name":"Protest",
+					"chance":10
+				},
+				{
+					"name":"ManCough",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":400
+				}
+			]
+		},
+		{
+			"duration":60,
+			"startSpeed":1.4,
+			"endSpeed":2,
+			"levelObjects":[
+				{
+					"name":"Doctor3",
+					"chance":3
+				},
+				{
+					"name":"DoctorsRun",
+					"chance":3
+				},
+				{
+					"name":"Stolb",
+					"chance":3
+				},
+				{
+					"name":"Reporter",
+					"chance":10
+				},
+				{
+					"name":"Helicopter",
+					"chance":5
+				},
+				{
+					"name":"Protest",
+					"chance":10
+				},
+				{
+					"name":"ManCoughHard",
+					"chance":10
+				},
+				{
+					"name":"DogHard",
+					"chance":10
+				},
+				{
+					"name":"Zombie",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":500
+				}
+			]
+		},
+		{
+			"duration":60,
+			"startSpeed":1.6,
+			"endSpeed":2.2,
+			"levelObjects":[
+				{
+					"name":"Tent",
+					"chance":3
+				},
+				{
+					"name":"DoctorsRunHard",
+					"chance":3
+				},
+				{
+					"name":"Reporter",
+					"chance":10
+				},
+				{
+					"name":"Helicopter",
+					"chance":3
+				},
+				{
+					"name":"ProtestHard",
+					"chance":10
+				},
+				{
+					"name":"ManCoughHard",
+					"chance":10
+				},
+				{
+					"name":"DogHard",
+					"chance":10
+				},
+				{
+					"name":"Zombie",
+					"chance":10
+				},
+				{
+					"name":"OldHard",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":500
+				}
+			]
+		},
+		{
+			"duration":60,
+			"startSpeed":1.8,
+			"endSpeed":2.4,
+			"levelObjects":[
+				{
+					"name":"Tent",
+					"chance":3
+				},
+				{
+					"name":"StolbHard",
+					"chance":3
+				},
+				{
+					"name":"HoboHard",
+					"chance":10
+				},
+				{
+					"name":"Helicopter",
+					"chance":3
+				},
+				{
+					"name":"ProtestHard",
+					"chance":10
+				},
+				{
+					"name":"ZombieBox",
+					"chance":10
+				},
+				{
+					"name":"DogHard",
+					"chance":10
+				},
+				{
+					"name":"Zombie",
+					"chance":10
+				},
+				{
+					"name":"OldHard",
+					"chance":10
+				},
+				{
+					"name":"RunManHard",
+					"chance":10
+				},
+				{
+					"name":"ZombieCrowd",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":600
+				}
+			]
+		},
+		{
+			"duration":60,
+			"startSpeed":2,
+			"endSpeed":2.6,
+			"levelObjects":[
+				{
+					"name":"Tent",
+					"chance":3
+				},
+				{
+					"name":"DoctorsRunHard",
+					"chance":3
+				},
+				{
+					"name":"StolbHard",
+					"chance":3
+				},
+				{
+					"name":"Helicopter",
+					"chance":3
+				},
+				{
+					"name":"ZombieBox",
+					"chance":10
+				},
+				{
+					"name":"DogHard",
+					"chance":10
+				},
+				{
+					"name":"Zombie",
+					"chance":10
+				},
+				{
+					"name":"RunManHard",
+					"chance":10
+				},
+				{
+					"name":"ZombieCrowd",
+					"chance":10
+				},
+				{
+					"name":"Cowboy",
+					"chance":10
+				},
+				{
+					"name":"Bat",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":600
+				}
+			]
+		},
+		{
+			"duration":60,
+			"startSpeed":2.2,
+			"endSpeed":2.8,
+			"levelObjects":[
+				{
+					"name":"Tent",
+					"chance":3
+				},
+				{
+					"name":"DoctorsRunHard",
+					"chance":3
+				},
+				{
+					"name":"StolbHard",
+					"chance":3
+				},
+				{
+					"name":"Helicopter",
+					"chance":3
+				},
+				{
+					"name":"Reporter",
+					"chance":10
+				},
+				{
+					"name":"ZombieBox",
+					"chance":10
+				},
+				{
+					"name":"DogHard",
+					"chance":10
+				},
+				{
+					"name":"ZombieCrowdHard",
+					"chance":10
+				},
+				{
+					"name":"RunManHard",
+					"chance":10
+				},
+				{
+					"name":"ZombieWoman",
+					"chance":10
+				},
+				{
+					"name":"Bat",
+					"chance":10
+				},
+				{
+					"name":"Plague",
+					"chance":10
+				},
+				{
+					"name":"Archer",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":800
+				}
+			]
+		},
+		{
+			"duration":180,
+			"startSpeed":2,
+			"endSpeed":4,
+			"levelObjects":[
+				{
+					"name":"Tent",
+					"chance":3
+				},
+				{
+					"name":"DoctorsRunHard",
+					"chance":3
+				},
+				{
+					"name":"StolbHard",
+					"chance":3
+				},
+				{
+					"name":"Helicopter",
+					"chance":10
+				},
+				{
+					"name":"Reporter",
+					"chance":10
+				},
+				{
+					"name":"ZombieBox",
+					"chance":10
+				},
+				{
+					"name":"ZombieCrowdHard",
+					"chance":10
+				},
+				{
+					"name":"ZombieCrowd",
+					"chance":10
+				},
+				{
+					"name":"RunManHard",
+					"chance":10
+				},
+				{
+					"name":"ZombieWoman",
+					"chance":10
+				},
+				{
+					"name":"Bat",
+					"chance":10
+				},
+				{
+					"name":"Plague",
+					"chance":10
+				},
+				{
+					"name":"Archer",
+					"chance":10
+				},
+				{
+					"name":"Rescuer",
+					"chance":5
+				},
+				{
+					"name":"Cowboy",
+					"chance":5
+				},
+				{
+					"name":"OldHard",
+					"chance":10
+				},
+				{
+					"name":"Cat",
+					"chance":10
+				},
+				{
+					"name":"Dog",
+					"chance":10
+				},
+				{
+					"name":"HoboHard",
+					"chance":10
+				},
+				{
+					"name":"Crowd",
+					"chance":10
+				},
+				{
+					"name":"DogHard",
+					"chance":10
+				},
+				{
+					"name":"ProtestHard",
+					"chance":10
+				},
+				{
+					"name":"Zombie",
+					"chance":10
+				}
+			],
+			"lutObjects":[
+				{
+					"name":"Mask",
+					"chance":10
+				},
+				{
+					"name":"Vaccine",
+					"chance":30
+				},
+				{
+					"name":"Empty",
+					"chance":1000
+				}
+			]
 		}
-	}
-]
+	]
+}

@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Nora
+namespace Assets.Scripts
 {
-    public class Collections : MonoBehaviour
+    public class NoraCollections : MonoBehaviour
     {
         public static T GetRandomFromList<T>(List<T> list)
         {
@@ -16,21 +15,15 @@ namespace Nora
 
         public static T GetRandomWithChance<T>(Dictionary<T, int> objectChanceMap)
         {
-            try
-            {
-                var chancesSum = objectChanceMap.Values.ToList().Sum();
-                float randomChance = Random.Range(0, chancesSum);
+            var chancesSum = objectChanceMap.Values.ToList().Sum();
+            float randomChance = Random.Range(0, chancesSum);
 
-                float totalChance = 0;
-                foreach (KeyValuePair<T, int> pair in objectChanceMap)
-                {
-                    totalChance += pair.Value;
-                    if (totalChance > randomChance)
-                        return pair.Key;
-                }
-            }
-            catch
+            float totalChance = 0;
+            foreach (KeyValuePair<T, int> pair in objectChanceMap)
             {
+                totalChance += pair.Value;
+                if (totalChance > randomChance)
+                    return pair.Key;
             }
 
             return default;

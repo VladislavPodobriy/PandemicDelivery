@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 388850960684635212}
   - component: {fileID: 388850960684635213}
   - component: {fileID: 388850960684635214}
-  - component: {fileID: 388850960684635569}
   - component: {fileID: 388850960684635570}
-  - component: {fileID: 388850960684635571}
+  - component: {fileID: 5238169768536923411}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -102,20 +101,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &388850960684635569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388850960684635215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 40
-  _heal: 0
 --- !u!61 &388850960684635570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,7 +127,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3647556, y: 0.5823946}
   m_EdgeRadius: 0
---- !u!114 &388850960684635571
+--- !u!114 &5238169768536923411
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,10 +136,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 388850960684635215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936ad45f3c13d4eb1d4b11e37b81b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0.03
+  _value: 10
+  _heal: 0
 --- !u!1 &5581460641135015788
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,6 +150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2689509061323230250}
+  - component: {fileID: -5408709365520474197}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -186,3 +173,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5408709365520474197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5581460641135015788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23e8451c466fa94188908265f70fe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.07

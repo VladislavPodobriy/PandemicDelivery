@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2663927649380526610}
   - component: {fileID: 2663927649380526609}
   - component: {fileID: 2663927649380526608}
-  - component: {fileID: 2663927649380526604}
   - component: {fileID: 2663927649380526611}
+  - component: {fileID: 8439713338320433131}
   m_Layer: 0
   m_Name: ZombieCrowd
   m_TagString: Untagged
@@ -101,20 +101,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2663927649380526604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2663927649380526615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 60
-  _heal: 0
 --- !u!61 &2663927649380526611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -141,3 +127,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1872127, y: 1.0536404}
   m_EdgeRadius: 0
+--- !u!114 &8439713338320433131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2663927649380526615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _value: 30
+  _heal: 0

@@ -1,39 +1,42 @@
-﻿using UnityEngine;
-using System.IO;
+﻿using System.IO;
+using UnityEngine;
 
-public class ScreenshotHelper : MonoBehaviour
+namespace Assets.Scripts
 {
-    public static Texture2D Save(int w, int h, int depth, Camera camera, string path)
+    public class ScreenshotHelper : MonoBehaviour
     {
-        var screenshot = RenderFromCamera(w, h, depth, camera);
+        public static Texture2D Save(int w, int h, int depth, Camera camera, string path)
+        {
+            var screenshot = RenderFromCamera(w, h, depth, camera);
 
-        File.WriteAllBytes(path, screenshot.EncodeToPNG());
+            File.WriteAllBytes(path, screenshot.EncodeToPNG());
 
-        return screenshot;
-    }
+            return screenshot;
+        }
 
-    public static Texture2D SaveAndShare(int w, int h, int depth, Camera camera)
-    {
-        var path = Path.Combine(Application.temporaryCachePath, "shared.png");
+        public static Texture2D SaveAndShare(int w, int h, int depth, Camera camera)
+        {
+            var path = Path.Combine(Application.temporaryCachePath, "shared.png");
         
-        var screenshot = Save(w, h, depth, camera, path);
+            var screenshot = Save(w, h, depth, camera, path);
 
-        return screenshot;
-    }
+            return screenshot;
+        }
 
-    public static Texture2D RenderFromCamera(int w, int h, int depth, Camera camera)
-    {
-        RenderTexture.active = new RenderTexture(w, h, depth);
-        camera.targetTexture = RenderTexture.active;
+        public static Texture2D RenderFromCamera(int w, int h, int depth, Camera camera)
+        {
+            RenderTexture.active = new RenderTexture(w, h, depth);
+            camera.targetTexture = RenderTexture.active;
 
-        Texture2D screenshotTexture = new Texture2D(w, h, TextureFormat.RGBAFloat, false);
+            Texture2D screenshotTexture = new Texture2D(w, h, TextureFormat.RGBAFloat, false);
 
-        camera.Render();
-        screenshotTexture.ReadPixels(new Rect(0, 0, w, h), 0, 0);
+            camera.Render();
+            screenshotTexture.ReadPixels(new Rect(0, 0, w, h), 0, 0);
 
-        camera.targetTexture = null;
-        RenderTexture.active = null;  
+            camera.targetTexture = null;
+            RenderTexture.active = null;  
 
-        return screenshotTexture;
+            return screenshotTexture;
+        }
     }
 }

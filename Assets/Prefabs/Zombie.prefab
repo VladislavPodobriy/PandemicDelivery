@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6476419671418318125}
   - component: {fileID: 6476419671418318124}
   - component: {fileID: 6476419671418318123}
-  - component: {fileID: 6476419671418318112}
   - component: {fileID: 6476419671418318127}
-  - component: {fileID: 6476419671418318126}
+  - component: {fileID: -5457944499058190984}
+  - component: {fileID: 7241455078205344431}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -102,20 +102,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6476419671418318112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6476419671418318122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 50
-  _heal: 0
 --- !u!61 &6476419671418318127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,7 +128,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.61475384, y: 0.97731495}
   m_EdgeRadius: 0
---- !u!114 &6476419671418318126
+--- !u!114 &-5457944499058190984
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,7 +137,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 6476419671418318122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936ad45f3c13d4eb1d4b11e37b81b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0.05
+  _value: 5
+  _heal: 0
+--- !u!114 &7241455078205344431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476419671418318122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23e8451c466fa94188908265f70fe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.04

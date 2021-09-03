@@ -1,32 +1,34 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public enum LutType  
+namespace Assets.Scripts
 {
-    Mask,
-    Vaccine,
-    Paper
-}
-
-public class Lut : MonoBehaviour
-{
-    [SerializeField] private LutType _type;
-
-    private bool _activated;
-
-    public void OnTriggerEnter2D(Collider2D col)
+    public class Lut : MonoBehaviour
     {
-        if (col.tag != "Player" || _activated)
-            return;
+        [SerializeField] private LutType _type;
+    
+        private bool _activated;
 
-        if (_type == LutType.Mask)
-            LutController.AddMask();
-        if (_type == LutType.Vaccine)
-            LutController.AddVaccine();
+        public void OnTriggerEnter2D(Collider2D col)
+        {
+            if (col.tag != "Player" || _activated)
+                return;
 
-        Destroy(gameObject);
+            switch (_type)
+            {
+                case LutType.Mask:
+                    LutController.AddMask();
+                    break;
+                case LutType.Vaccine:
+                    LutController.AddVaccine();
+                    break;
+                case LutType.Paper:
+                    LutController.AddPaper();
+                    break;
+            }
+        
+            Destroy(gameObject);
 
-        _activated = true;
+            _activated = true;
+        }
     }
 }

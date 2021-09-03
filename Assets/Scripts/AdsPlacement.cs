@@ -2,67 +2,55 @@
 using UnityEngine.Advertisements;
 using UnityEngine.Events;
 
-public class AdsPlacement : MonoBehaviour, IUnityAdsListener
+namespace Assets.Scripts
 {
-    [SerializeField] public UnityEvent onFinish;
-    [SerializeField] public UnityEvent onStart;
-
-    [SerializeField] private string placementId;
-
-    private bool ready;
-
-    public void Start()
+    public class AdsPlacement : MonoBehaviour, IUnityAdsListener
     {
-        Advertisement.AddListener(this);
-    }
+        public UnityEvent OnFinish;
+        public UnityEvent OnStart;
 
-    public void Show()
-    {
-        if (!ready)
+        [SerializeField] private string _id;
+
+        private bool isReady;
+
+        public void Start()
         {
-            onFinish?.Invoke();
-            return;
+            Advertisement.AddListener(this);
         }
 
-        Advertisement.Show(placementId);
-    }
+        public void Show()
+        {
+            if (!isReady)
+            {
+                OnFinish?.Invoke();
+                return;
+            }
 
-    public void OnUnityAdsDidFinish(string id, ShowResult showResult)
-    {
-        if (id != placementId)
-            return;
-
-        if (showResult == ShowResult.Finished)
-        {
-            print("Ad Finished");
-        }
-        else if (showResult == ShowResult.Skipped)
-        {
-            print("Ad Skipped");
-        }
-        else if (showResult == ShowResult.Failed)
-        {
-            print("Ad Failed");
+            Advertisement.Show(_id);
         }
 
-        onFinish?.Invoke();
-    }
+        public void OnUnityAdsDidStart(string placementId)
+        {
+            OnStart?.Invoke();
+        }
 
-    public void OnUnityAdsReady(string id)
-    {
-        print("Ready");
-        print(id);
-        if (id == placementId)
-            ready = true;
-    }
+        public void OnUnityAdsDidFinish(string id, ShowResult showResult)
+        {
+            if (id != _id)
+                return;
 
-    public void OnUnityAdsDidError(string message)
-    {
-        print("Ad Error: " + message);
-    }
+            OnFinish?.Invoke();
+        }
 
-    public void OnUnityAdsDidStart(string placementId)
-    {
-        onStart?.Invoke();
+        public void OnUnityAdsReady(string id)
+        {
+            if (id == _id)
+                isReady = true;
+        }
+
+        public void OnUnityAdsDidError(string message)
+        {
+            print("Ad Error: " + message);
+        }
     }
 }

@@ -106,7 +106,7 @@ namespace Pixelplacement
                 if (GUILayout.Button(current.name)) _target.ChangeState(current);
             }
             GUI.color = currentColor;
-            if (GUILayout.Button("Exit")) _target.Exit();
+            if (GUILayout.Button("ExitLevel")) _target.Exit();
         }
 
         void DrawHideAllButton()

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5861922943766909330}
   - component: {fileID: 5861922943766909332}
-  - component: {fileID: 5861922943766909333}
+  - component: {fileID: 5084417461382702241}
   m_Layer: 0
   m_Name: Doctor1
   m_TagString: Untagged
@@ -58,7 +58,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.36238217, y: 0.79371214}
   m_EdgeRadius: 0
---- !u!114 &5861922943766909333
+--- !u!114 &5084417461382702241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,10 +67,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5861922943766909331}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _value: 20
+  _value: 10
   _heal: 1
 --- !u!1 &5861922943820937374
 GameObject:
@@ -116,7 +116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5861922943916835007}
   - component: {fileID: 5861922943916834977}
-  - component: {fileID: 5861922943916835006}
+  - component: {fileID: 7437278590101220896}
   m_Layer: 0
   m_Name: Patient
   m_TagString: Untagged
@@ -164,7 +164,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.13734138, y: 0.30612135}
   m_EdgeRadius: 0
---- !u!114 &5861922943916835006
+--- !u!114 &7437278590101220896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,10 +173,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5861922943916835004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _value: 40
+  _value: 25
   _heal: 0
 --- !u!1 &5861922944194518171
 GameObject:
@@ -287,7 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5861922945695088371}
   - component: {fileID: 5861922945695088373}
-  - component: {fileID: 5861922945695088370}
+  - component: {fileID: 6332203525480724530}
   m_Layer: 0
   m_Name: Doctor2 (1)
   m_TagString: Untagged
@@ -335,7 +335,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.42802, y: 0.7843356}
   m_EdgeRadius: 0
---- !u!114 &5861922945695088370
+--- !u!114 &6332203525480724530
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -344,8 +344,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5861922945695088368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _value: 20
+  _value: 10
   _heal: 1

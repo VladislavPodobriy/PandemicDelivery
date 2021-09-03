@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 1068752603189410717}
   - component: {fileID: 1068752603189410716}
   - component: {fileID: 1068752603189410787}
-  - component: {fileID: 1068752603189410719}
   - component: {fileID: 1068752603189410718}
-  - component: {fileID: 1068752603189410712}
+  - component: {fileID: 7320288203867873652}
   m_Layer: 0
   m_Name: Helicopter
   m_TagString: Untagged
@@ -102,20 +101,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1068752603189410719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068752603189410786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 20
-  _heal: 1
 --- !u!61 &1068752603189410718
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,7 +127,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 1.6634026}
   m_EdgeRadius: 0
---- !u!114 &1068752603189410712
+--- !u!114 &7320288203867873652
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,10 +136,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1068752603189410786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936ad45f3c13d4eb1d4b11e37b81b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0.07
+  _value: 25
+  _heal: 1
 --- !u!1 &1932638863865772262
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,6 +150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 256560084653552893}
+  - component: {fileID: 3189027798804873815}
   m_Layer: 0
   m_Name: Helicopter
   m_TagString: Untagged
@@ -186,3 +173,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3189027798804873815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932638863865772262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23e8451c466fa94188908265f70fe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.1

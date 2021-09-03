@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7713609673420619711}
   - component: {fileID: 7713609673420619710}
   - component: {fileID: 7713609673420619709}
-  - component: {fileID: 7713609673420619705}
   - component: {fileID: 7713609673420619704}
+  - component: {fileID: -3345844736389625550}
   m_Layer: 0
   m_Name: Cowboy
   m_TagString: Untagged
@@ -101,20 +101,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7713609673420619705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7713609673420619708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6837116c518d54a9df3a25781f6b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: 50
-  _heal: 1
 --- !u!61 &7713609673420619704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -141,3 +127,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5520182, y: 1.6077099}
   m_EdgeRadius: 0
+--- !u!114 &-3345844736389625550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7713609673420619708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b92fec74b1890847856b6ec459a071a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _value: 20
+  _heal: 1
